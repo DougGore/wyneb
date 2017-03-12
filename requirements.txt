@@ -1,1 +1,2 @@
 dlib
+scikit-image

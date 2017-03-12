@@ -1,13 +1,9 @@
 # wyneb.py - Wyneb a facial processing library by PiCymru
 
-from skimage import io
-
 import pygame
-
 import math
-
 import dlib
-
+from skimage import io
 from collections import namedtuple
 
 FaceObject = namedtuple('FaceObject', 'shape rotation')
